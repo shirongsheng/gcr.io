@@ -7,5 +7,5 @@
 #FROM k8s.gcr.io/coredns/coredns:v1.8
 #FROM registry.k8s.io/ingress-nginx/controller:v1.4.0@sha256:34ee929b111ffc7aa426ffd409af44da48e5a0eea1eb2207994d9e0c0882d143
 #FROM registry.k8s.io/sig-storage/snapshot-controller:v3.0.3
-#FROM registry.k8s.io/sig-storage/csi-attacher:v4.3.0
-FROM registry.k8s.io/provider-os/cinder-csi-plugin:v1.27.2
+FROM registry.k8s.io/sig-storage/csi-attacher:v3.5.0
+#FROM registry.k8s.io/provider-os/cinder-csi-plugin:v1.27.2
