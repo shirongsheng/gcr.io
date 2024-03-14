@@ -10,4 +10,4 @@
 #FROM registry.k8s.io/sig-storage/csi-attacher:v3.5.0
 #FROM registry.k8s.io/provider-os/cinder-csi-plugin:v1.27.2
 #FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.1
-FROM  registry.k8s.io/dns/k8s-dns-node-cache:1.22.28
+FROM  registry.k8s.io/cpa/cluster-proportional-autoscaler:v1.8.8
