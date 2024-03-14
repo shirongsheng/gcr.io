@@ -10,4 +10,4 @@
 #FROM registry.k8s.io/sig-storage/csi-attacher:v3.5.0
 #FROM registry.k8s.io/provider-os/cinder-csi-plugin:v1.27.2
 #FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.1
-FROM  docker.io/library/nginx:1.25.2-alpine
+FROM  registry.k8s.io/coredns/coredns:v1.9.3
