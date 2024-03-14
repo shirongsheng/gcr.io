@@ -10,4 +10,4 @@
 #FROM registry.k8s.io/sig-storage/csi-attacher:v3.5.0
 #FROM registry.k8s.io/provider-os/cinder-csi-plugin:v1.27.2
 #FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.1
-FROM  registry.k8s.io/kube-controller-manager:v1.26.5
+FROM  registry.k8s.io/kube-scheduler:v1.26.5
