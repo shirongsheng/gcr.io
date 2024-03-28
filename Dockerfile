@@ -10,4 +10,4 @@
 #FROM registry.k8s.io/sig-storage/csi-attacher:v3.5.0
 #FROM registry.k8s.io/provider-os/cinder-csi-plugin:v1.27.2
 #FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.1
-FROM  registry.k8s.io/ingress-nginx/controller:v1.9.6
+FROM  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06
