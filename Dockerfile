@@ -11,4 +11,5 @@
 #FROM registry.k8s.io/provider-os/cinder-csi-plugin:v1.27.2
 #FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.1
 #FROM  gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.16
-FROM quay.io.kubespray/kubespray:v2.24.0
+#FROM  quay.io.kubespray/kubespray:v2.24.0
+FROM  quay.io.kubespray/kubespray:v2.24.0
