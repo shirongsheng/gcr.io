@@ -13,19 +13,20 @@
 #FROM  gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.16
 #FROM  quay.io.kubespray/kubespray:v2.24.0
 
-FROM debian:bullseye
+#FROM debian:bullseye
 
 # Install git, supervisor, VNC, & X11 packages
-RUN set -ex; \
-    apt-get update; \
-    apt-get install -y \
-      bash \
-      fluxbox \
-      git \
-      net-tools \
-      novnc \
-      supervisor \
-      x11vnc \
-      xterm \
-      xvfb
+#RUN set -ex; \
+#    apt-get update; \
+    #apt-get install -y \
+     # bash \
+      #fluxbox \
+      #git \
+      #net-tools \
+      #novnc \
+      #supervisor \
+      #x11vnc \
+      #xterm \
+      #xvfb
+FROM registry.k8s.io/metrics-server/metrics-server:v0.6.4
 
