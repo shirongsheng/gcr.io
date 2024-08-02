@@ -31,5 +31,6 @@
 #FROM registry.k8s.io/metrics-server/metrics-server:v0.6.4
 #FROM dyrnq/csi-attacher:v4.2.0@sha256:5f6dce54211e377a0bb0878a937c3066edfca5afc49187c2b08ed9c0e6dfc14d
 #FROM dyrnq/csi-resizer:v1.7.0@sha256:30d94c7baa0013d8dfe70264abd42e984cb855a508d3f052e3db90f895897a35
-FROM k8scloudprovider/cinder-csi-plugin:v1.26.4@sha256:d560ff061b50278dec59d52be67131e15561203321b8d219d5d7ac2d0bc1d136
+#FROM k8scloudprovider/cinder-csi-plugin:v1.26.4@sha256:d560ff061b50278dec59d52be67131e15561203321b8d219d5d7ac2d0bc1d136
+FROM dyrnq/csi-provisioner:v3.4.1@sha256:f64997c5a803833d727a6602bf313aa1968bd234252200f044d9315ccfe4ad84
 
