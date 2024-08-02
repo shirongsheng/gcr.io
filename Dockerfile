@@ -30,5 +30,5 @@
       #xvfb
 #FROM registry.k8s.io/metrics-server/metrics-server:v0.6.4
 #FROM dyrnq/csi-attacher:v4.2.0@sha256:5f6dce54211e377a0bb0878a937c3066edfca5afc49187c2b08ed9c0e6dfc14d
-FROM docker pull dyrnq/csi-resizer:v1.7.0@sha256:30d94c7baa0013d8dfe70264abd42e984cb855a508d3f052e3db90f895897a35
+FROM dyrnq/csi-resizer:v1.7.0@sha256:30d94c7baa0013d8dfe70264abd42e984cb855a508d3f052e3db90f895897a35
 
