@@ -36,5 +36,5 @@
 #FROM dyrnq/csi-snapshotter:v6.2.1@sha256:feeb8384d737aba716c200796a76e38deab9dde92f08b09a9fae2fd369a70837
 #FROM dyrnq/livenessprobe:v2.9.0@sha256:c9bd6a3ecc13994126b6e11e91ff28d5973d46357cd2db63dd41068951e7fe5f
 #FROM dyrnq/csi-node-driver-registrar:v2.6.3@sha256:1d94485dac2977e9de42d8638488d9162591a66dcc0875ad63b13960913ade5e
-FROM redis:6.2.18
+FROM redis:6.2.17
 
